@@ -49,6 +49,7 @@
     top: 0;
     width: 100%;
     overflow:hidden;
+    z-index: 1;
 }
 
 .header + .main{
@@ -296,6 +297,7 @@
     display:flex;
     flex-direction:column;
     justify-content: center;
+    z-index: 0;
 }
 
 .skills h1{
@@ -309,7 +311,7 @@
     justify-content:center;
     margin:5.0rem auto 5.0rem 10.0rem;
     display:flex;
-    font-size:1.5rem
+    font-size:1.5rem;
 }
 
 .fab fa-js{
