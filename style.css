@@ -106,6 +106,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius:2rem;
 }
 
 .button{
@@ -203,6 +204,7 @@
     width:33.33%;
     position: relative;
     text-align: center;
+    font-size:1.5rem;
 }
 
 .progressbar li::before{
@@ -238,9 +240,9 @@
     color: rgb(16, 139, 139);
 }
 
-.progressbar li.active2{
+/* .progressbar li.active2{
     color: rgb(16, 139, 139);
-}
+} */
 
 .progressbar li.active:before{
     animation-name:circular;
@@ -248,6 +250,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
 .progressbar li.active2:before{
     animation-name:circular;
     animation-duration:0.5s;
@@ -255,6 +258,7 @@
     animation-fill-mode: forwards;
     animation-delay:2s
 }
+
 .progressbar li.active + li:after{
     background-color:rgb(16, 139, 139);
     animation-name: progressbar;
